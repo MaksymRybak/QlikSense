@@ -1,0 +1,3 @@
+# QlikSense
+
+QlikSense apps.
