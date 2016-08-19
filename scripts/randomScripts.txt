@@ -1,8 +1,49 @@
-[DatabaseTable]:
+//example1 (load from qlik internal table)
+[QlikSenseInternalTable]:
 load  Field1,
       Max(NumField1) as Sum1,
       FirstSortedValue(distinct Field2, -Field3) as Result1
 resident [QlikSenseInternalTable]
 group by Field1
 order by Field1, Field2 desc, Field3 desc;
+
+//example2 (join qlik internal tables)
+LIB CONNECT TO 'DatabaseConnection';
+
+[QlikSenseInternalTable]:
+load  Field1,
+	text(Year) & '_' & text(Month) as YearMonth,
+	NumField1;
+select      Field1 as Field1,
+		year(DateTimeField) as Year, 
+		month(DateTimeField) as Month,
+		count(Id) as NumField1
+from Database.dbo.Table (nolock)
+group by year(DateTimeField), month(DateTimeField), CodeField
+order by CodeField, Year, Month;
+
+join(QlikSenseInternalTable)
+load  CodeField,	
+      YearMonth,
+      if((rowno()=1 or (previous(CodeField)<>CodeField) or(previous(CodeField)=CodeField and Previous(left(YearMonth,4))<>left(YearMonth,4))),
+      NumField1,peek(NumField2, -1)+NumField3) as NumField
+resident QlikSenseInternalTable;
+
+// example3 (left join qlik internal tables)
+left join(QlikInternalTable1)
+load 	JoinField1,
+      JoinField2,
+	NewField1,
+	NewField2,
+	NewField3
+resident QlikInternalTable2;
+
+// example4 (dropping qlik internal objects)
+drop field Field1;
+drop table QlikInternalTable;
+
+// example5 (inner join with distinct, in other words, remove all fields in QlikSenseInternalTable1 not present in QlikSenseInternalTable2, join field is Field1)
+inner join(QlikSenseInternalTable1)
+LOAD distinct Field1
+RESIDENT QlikSenseInternalTable2;
 
