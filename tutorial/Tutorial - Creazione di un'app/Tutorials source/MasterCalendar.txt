@@ -1,0 +1,25 @@
+LET varMinDate = NUM(PEEK('Date',0,'Sales'));
+LET varMaxDate = NUM(PEEK('Date',-1,'Sales'));
+TempCalendar:
+LOAD
+DATE($(varMinDate) + ROWNO() -1) AS TempDate
+AUTOGENERATE $(varMaxDate) - $(varMinDate) +1;
+// Create the Master Calendar
+MasterCalendar:
+LOAD
+DATE(TempDate) AS Date,
+WEEK(TempDate) AS Week,
+YEAR(TempDate) AS Year,
+MONTH(TempDate) AS Month,
+DAY(TempDate) AS Day,
+INYEARTODATE(TempDate,'2014-03-31', 0) *-1 AS CYTDFlag,
+INYEARTODATE(TempDate,'2013-03-31',0) *-1 AS LYTDFlag,
+DATE(MONTHSTART(TempDate), 'MMM-YYYY') AS MonthYear,
+'Q' & CEIL(MONTH(TempDate)/3) AS Quarter,
+WEEK(TempDate)&'-'&YEAR(TempDate) AS WeekYear,
+WEEKDAY(TempDate) AS WeekDay
+RESIDENT
+TempCalendar
+Order BY
+TempDate ASC;
+DROP FIELD TempDate;

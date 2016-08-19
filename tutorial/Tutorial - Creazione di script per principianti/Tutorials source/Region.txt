@@ -1,0 +1,7 @@
+Region	Region Code	Week	SalesKey
+GERMANY	3	
+JAPAN	1
+NORDIC	5
+SPAIN	0
+UK	2
+USA	4

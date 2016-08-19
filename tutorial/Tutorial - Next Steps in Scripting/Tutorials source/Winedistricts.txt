@@ -1,0 +1,692 @@
+﻿LBound	RBound	NodeID	ParentID	NodeName
+1	1382	1		The World
+2	37	2	1	Africa
+38	313	20	1	Americas
+314	353	158	1	Asia
+354	1195	178	1	Europe
+1196	1381	599	1	Oceania
+3	4	3	2	Algeria
+5	8	4	2	Morocco
+9	34	6	2	South Africa
+35	36	19	2	Tunisia
+39	54	21	20	Argentina
+55	118	29	20	Brazil
+119	148	61	20	Canada
+149	150	76	20	Chile
+151	154	77	20	Mexico
+155	308	79	20	United States
+309	312	156	20	Venezuela
+315	326	159	158	India
+327	344	165	158	Israel
+345	346	174	158	Lebanon
+347	352	175	158	Palestinian territories
+355	376	179	178	Austria
+377	388	190	178	Bulgaria
+389	550	196	178	Croatia
+551	554	277	178	Cyprus
+555	558	279	178	Czech Republic
+559	702	281	178	France
+703	704	353	178	Georgia
+705	750	354	178	Germany
+751	800	377	178	Greece
+801	856	402	178	Hungary
+857	1014	430	178	Italy
+1015	1016	509	178	Luxembourg
+1017	1026	510	178	Moldova
+1027	1032	515	178	Poland
+1033	1064	518	178	Portugal
+1065	1070	534	178	Republic of Macedonia
+1071	1086	537	178	Romania
+1087	1094	545	178	Russia
+1095	1104	549	178	Serbia and Montenegro
+1105	1110	554	178	Slovakia
+1111	1118	557	178	Slovenia
+1119	1150	561	178	Spain
+1151	1170	577	178	Switzerland
+1171	1172	587	178	Turkey
+1173	1178	588	178	Ukraine
+1179	1194	591	178	United Kingdom
+1197	1336	600	599	Australia
+1337	1380	671	599	New Zealand
+6	7	5	4	Atlas Mountains
+10	11	7	6	Breede River Valley
+12	13	8	6	Constantia
+14	15	9	6	Durbanville
+16	17	10	6	Elgin
+18	19	11	6	Elim
+20	21	12	6	Franschoek
+22	23	13	6	Little Karoo
+24	25	14	6	Orange River Valley
+26	27	15	6	Paarl
+28	29	16	6	Robertson
+30	31	17	6	Stellenbosch
+32	33	18	6	Swartland
+40	41	22	21	Catamarca Province
+42	43	23	21	La Rioja Province
+44	45	24	21	Mendoza Province
+46	47	25	21	Neuquén Province
+48	49	26	21	Río Negro Province
+50	51	27	21	Salta Province
+52	53	28	21	San Juan Province
+56	63	30	29	Bahia
+64	67	34	29	Mato Grosso
+68	77	36	29	Minas Gerais
+78	87	41	29	Paraná
+88	95	46	29	Pernambuco
+96	103	50	29	Rio Grande do Sul
+104	111	54	29	Santa Catarina
+112	117	58	29	São Paulo
+120	129	62	61	British Columbia
+130	133	67	61	Nova Scotia
+134	143	69	61	Ontario
+144	147	74	61	Quebec
+152	153	78	77	Baja California
+156	159	80	79	Arizona
+160	165	82	79	Arkansas
+166	189	85	79	California
+190	193	97	79	Colorado
+194	201	99	79	Michigan
+202	209	103	79	Missouri
+210	219	107	79	New York
+220	223	112	79	North Carolina
+224	237	114	79	Ohio
+238	241	121	79	Oklahoma
+242	253	123	79	Oregon
+254	259	129	79	Pacific Northwest
+260	269	132	79	Pennsylvania
+270	283	137	79	Texas
+284	299	144	79	Virginia
+300	307	152	79	Washington
+310	311	157	156	Carora, Lara State
+316	317	160	159	Bangalore
+318	319	161	159	Narayangaon
+320	321	162	159	Nasik
+322	323	163	159	Pune
+324	325	164	159	Sangli
+328	329	166	165	Bet Shemesh
+330	331	167	165	Carmel
+332	333	168	165	Galilee
+334	335	169	165	Golan heights
+336	337	170	165	Jerusalem
+338	339	171	165	Judean Hills
+340	341	172	165	Latrun
+342	343	173	165	Rishon LeZion
+348	349	176	175	Beit Jala
+350	351	177	175	Hebron
+356	357	180	179	Burgenland
+358	359	181	179	Kamptal-Donauland
+360	365	182	179	Northeastern and eastern Lower Austria
+366	367	185	179	Southern Styria
+368	369	186	179	Steiermark
+370	371	187	179	Termenregion
+372	373	188	179	Vienna
+374	375	189	179	Wachau-Krems
+378	379	191	190	Black Sea region
+380	381	192	190	Danubian Plain
+382	383	193	190	Rose Valley
+384	385	194	190	Thrace
+386	387	195	190	Valley of the Struma River
+390	475	197	196	Continental Croatia
+476	549	240	196	Littoral Croatia
+552	553	278	277	Commandaria
+556	557	280	279	Moravia
+560	561	282	281	Alsace
+562	613	283	281	Bordeaux
+614	639	309	281	Bourgogne
+640	641	322	281	Champagne
+642	643	323	281	Corse
+644	645	324	281	Jura
+646	647	325	281	Languedoc
+648	661	326	281	Loire
+662	663	333	281	Lorraine
+664	665	334	281	Provence
+666	685	335	281	Rhône
+686	697	345	281	Roussillon
+698	701	351	281	Savoie
+706	707	355	354	Ahr
+708	709	356	354	Baden
+710	715	357	354	Franken
+716	717	360	354	Hessische Bergstraße
+718	719	361	354	Mittelrhein
+720	727	362	354	Mosel-Saar-Ruwer
+728	729	366	354	Nahe
+730	731	367	354	Pfalz
+732	737	368	354	Rheingau
+738	739	371	354	Rheinhessen
+740	741	372	354	Saale-Unstrut (Sachsen-Anhalt)
+742	745	373	354	Sachsen
+746	749	375	354	Württemberg
+752	765	378	377	Aegean islands
+766	779	385	377	Central Greece
+780	783	392	377	Ionian Islands
+784	791	394	377	Macedonia
+792	799	398	377	Peloponnesus
+802	815	403	402	Balaton
+816	823	410	402	Danube
+824	833	414	402	Northern Hungary
+834	845	419	402	Northern Transdanubia
+846	855	425	402	Southern Transdanubia
+858	859	431	430	Alto Adige
+860	861	432	430	Basilicata
+862	863	433	430	Campania
+864	865	434	430	Friuli-Venezia Giulia
+866	869	435	430	Liguria
+870	875	437	430	Lombardia
+876	883	440	430	Marche
+884	905	444	430	Piemonte
+906	907	455	430	Puglia
+908	917	456	430	Sardinia
+918	925	461	430	Sicilia
+926	965	465	430	Toscana
+966	967	485	430	Trentino
+968	973	486	430	Umbria
+974	1013	489	430	Veneto
+1018	1019	511	510	Bardar
+1020	1021	512	510	Codri
+1022	1023	513	510	Hincheşti
+1024	1025	514	510	Purkari
+1028	1029	516	515	Warka
+1030	1031	517	515	Zielona Góra
+1034	1035	519	518	Bairrada
+1036	1037	520	518	Bucelas
+1038	1039	521	518	Carcavelos
+1040	1041	522	518	Colares
+1042	1043	523	518	Dão
+1044	1045	524	518	Douro
+1046	1047	525	518	Lagoa
+1048	1049	526	518	Lagos
+1050	1051	527	518	Madeira
+1052	1053	528	518	Portimão
+1054	1055	529	518	Porto e Douro
+1056	1057	530	518	Ribatejo
+1058	1059	531	518	Setúbal
+1060	1061	532	518	Tavira
+1062	1063	533	518	Vinhos Verdes
+1066	1067	535	534	Skopsko vinogorje
+1068	1069	536	534	Tikves
+1072	1073	538	537	Cotnari
+1074	1075	539	537	Dealu Mare
+1076	1077	540	537	Murfatlar
+1078	1079	541	537	Odobeşti
+1080	1081	542	537	Recaş
+1082	1083	543	537	Târnave
+1084	1085	544	537	Vânju Mare
+1088	1089	546	545	Caucasus
+1090	1091	547	545	Krasnodar
+1092	1093	548	545	Stavropoli
+1096	1097	550	549	Montenegro
+1098	1099	551	549	Negotin
+1100	1101	552	549	Palić
+1102	1103	553	549	Vršac
+1106	1107	555	554	Malé Karpaty (Little Carpathians)
+1108	1109	556	554	Tokaj
+1112	1113	558	557	Podravje
+1114	1115	559	557	Posavje
+1116	1117	560	557	Primorje
+1120	1121	562	561	Almansa
+1122	1123	563	561	Calatayud
+1124	1125	564	561	Cariñena
+1126	1131	565	561	Islas Baleares
+1132	1133	568	561	Jerez
+1134	1135	569	561	Jumilla
+1136	1137	570	561	Navarra
+1138	1139	571	561	Penedés
+1140	1141	572	561	Ribera del Duero
+1142	1143	573	561	Rioja
+1144	1145	574	561	Toro
+1146	1147	575	561	Utiel-Requena
+1148	1149	576	561	Valencia
+1152	1153	578	577	Bündner Herrschaft
+1154	1155	579	577	Canton of Geneva
+1156	1157	580	577	Grisons
+1158	1159	581	577	Neuchâtel
+1160	1161	582	577	St. Gallen
+1162	1163	583	577	Ticino
+1164	1165	584	577	Valais
+1166	1167	585	577	Vaud
+1168	1169	586	577	Zürich
+1174	1175	589	588	Crimea
+1176	1177	590	588	Odessa Oblast
+1180	1181	592	591	Essex
+1182	1183	593	591	Hampshire
+1184	1185	594	591	Kent
+1186	1187	595	591	Norfolk
+1188	1189	596	591	Shropshire
+1190	1191	597	591	Suffolk
+1192	1193	598	591	Sussex
+1198	1201	601	600	Australian Capital Territory
+1202	1227	603	600	New South Wales
+1228	1233	617	600	Queensland
+1234	1265	620	600	South Australia
+1266	1271	636	600	Tasmania
+1272	1315	639	600	Victoria
+1316	1335	661	600	Western Australia
+1338	1345	672	671	Auckland Region
+1346	1347	676	671	Bay of Plenty
+1348	1351	677	671	Canterbury
+1352	1353	679	671	Central Otago
+1354	1355	680	671	Gisborne
+1356	1357	681	671	"Hawke's Bay Region"
+1358	1367	682	671	Marlborough
+1368	1369	687	671	Nelson
+1370	1371	688	671	Northland Region
+1372	1375	689	671	Waikato
+1376	1379	691	671	Wairarapa
+57	58	31	30	Curaçá
+59	60	32	30	Irecê
+61	62	33	30	Juazeiro
+65	66	35	34	Nova Mutum
+69	70	37	36	Andradas
+71	72	38	36	Caldas
+73	74	39	36	Pirapora
+75	76	40	36	Santa Rita de Caldas
+79	80	42	41	Bandeirantes
+81	82	43	41	Marialva
+83	84	44	41	Maringá
+85	86	45	41	Rosário do Avaí
+89	90	47	46	Casa Nova
+91	92	48	46	Petrolina
+93	94	49	46	Santa Maria da Boa Vista
+97	98	51	50	Bento Gonçalves (city)
+99	100	52	50	Caxias do Sul
+101	102	53	50	Garibaldi
+105	106	55	54	Pinheiro Preto
+107	108	56	54	São Joaquim
+109	110	57	54	Tangará
+113	114	59	58	Jundiaí
+115	116	60	58	São Roque
+121	122	63	62	Fraser Valley
+123	124	64	62	Okanagan Valley
+125	126	65	62	Similkameen Valley
+127	128	66	62	Vancouver Island
+131	132	68	67	Annapolis Valley
+135	136	70	69	Lake Erie North Shore and Pelee Island
+137	138	71	69	Niagara Peninsula
+139	140	72	69	Prince Edward County
+141	142	73	69	Toronto
+145	146	75	74	Eastern Townships
+157	158	81	80	Sonoita
+161	162	83	82	Altus
+163	164	84	82	Ozark Mountains AR
+167	168	86	85	Central Coast/Monterey
+169	170	87	85	Lake County
+171	172	88	85	Livermore Valley
+173	174	89	85	Mendocino County
+175	176	90	85	Napa Valley
+177	178	91	85	San Joaquin County
+179	180	92	85	San Luis Obispo County
+181	182	93	85	Santa Cruz Mountains
+183	184	94	85	Santa Ynez valley
+185	186	95	85	Sonoma Valley
+187	188	96	85	Temecula
+191	192	98	97	Palisade/Grand Valley
+195	196	100	99	Lake Michigan Shore
+197	198	101	99	Leelanau Peninsula
+199	200	102	99	Old Mission Peninsula
+203	204	104	103	Augusta
+205	206	105	103	Hermann
+207	208	106	103	Ozark Highlands
+211	212	108	107	Eastern Long Island
+213	214	109	107	Finger Lakes
+215	216	110	107	Hudson River Valley
+217	218	111	107	Lake Erie Region NY
+221	222	113	112	Yadkin Valley
+225	226	115	114	Grand River Valley
+227	228	116	114	Isle St. George
+229	230	117	114	Kanawha River Valley
+231	232	118	114	Lake Erie Region OH
+233	234	119	114	Loramie Creek
+235	236	120	114	Ohio River Valley
+239	240	122	121	Ozark Mountains OK
+243	244	124	123	Applegate Valley
+245	246	125	123	Hood River County
+247	248	126	123	Rogue Valley
+249	250	127	123	Umpqua Valley
+251	252	128	123	Willamette Valley
+255	256	130	129	Columbia Valley
+257	258	131	129	Walla Walla Valley
+261	262	133	132	Central Delaware Valley
+263	264	134	132	Cumberland Valley
+265	266	135	132	Lake Erie Region PE
+267	268	136	132	Lancaster Valley
+271	272	138	137	Bell Mountain
+273	274	139	137	Davis Mountains
+275	276	140	137	Escondido Valley
+277	278	141	137	Fredericksburg
+279	280	142	137	High Plains
+281	282	143	137	Texas Hill Country
+285	286	145	144	George Washington Birthplace
+287	288	146	144	Monticello
+289	290	147	144	North Fork of Roanoke
+291	292	148	144	Northern Neck
+293	294	149	144	Rocky Knob
+295	296	150	144	Shenandoah Valley
+297	298	151	144	"Virginia's Eastern Shore"
+301	302	153	152	Puget Sound
+303	304	154	152	Red Mountain
+305	306	155	152	Yakima Valley
+361	362	183	182	Wachau
+363	364	184	182	Weinviertel
+391	396	198	197	Moslavina
+397	408	201	197	Plešivica
+409	416	207	197	Podunavlje
+417	424	211	197	Pokuplje
+425	438	215	197	Prigorje - Bilogora
+439	460	222	197	Slavonija
+461	474	233	197	Zagorje - Međimurje
+477	484	241	240	Dalmatinska zagora
+485	496	245	240	Hrvatsko primorje
+497	504	251	240	Istra
+505	522	255	240	Sjeverna Dalmacija
+523	548	264	240	Srednja i Južna Dalmacija
+563	564	284	283	Entre-Deux-Mers
+565	570	285	283	Graves
+571	588	288	283	Médoc
+589	590	297	283	Pomerol
+591	600	298	283	Saint-Emilion
+601	612	303	283	Sauternes
+615	616	310	309	Beaujolais
+617	618	311	309	Bugey
+619	620	312	309	Chablis
+621	622	313	309	Côte Charlonnaise
+623	636	314	309	"Côte d'Or"
+637	638	321	309	Mâconnais
+649	654	327	326	Anjou-Saumur
+655	656	330	326	Cognac
+657	658	331	326	Muscadet
+659	660	332	326	Touraines
+667	668	336	335	Beaumes-de-Venise
+669	670	337	335	Châteauneuf-du-Pape
+671	672	338	335	Condrieu
+673	674	339	335	Cornas
+675	676	340	335	Côte du Rhône-Villages
+677	678	341	335	Côte-Rôtie
+679	680	342	335	Gigondas
+681	682	343	335	Hermitage
+683	684	344	335	Saint-Joseph
+687	688	346	345	Banyuls
+689	690	347	345	Corbières
+691	692	348	345	Fitou
+693	694	349	345	Minervois
+695	696	350	345	Rivesaltes
+699	700	352	351	Haut-Savoie
+711	712	358	357	Main
+713	714	359	357	Unterfranken
+721	722	363	362	Mosel
+723	724	364	362	Ruwer
+725	726	365	362	Saar
+733	734	369	368	Johannisberg
+735	736	370	368	Rüdesheim
+743	744	374	373	Meißen (Elbe)
+747	748	376	375	Neckar
+753	754	379	378	Crete
+755	756	380	378	Limnos
+757	758	381	378	Paros
+759	760	382	378	Rhodes
+761	762	383	378	Samos
+763	764	384	378	Santorini
+767	768	386	385	Attica
+769	772	387	385	Epirus
+773	778	389	385	Thessaly
+781	782	393	392	Kefalonia
+785	786	395	394	Amyntaion
+787	788	396	394	Goumenissa
+789	790	397	394	Naoussa
+793	794	399	398	Mantinia
+795	796	400	398	Nemea
+797	798	401	398	Patras
+803	804	404	403	Badacsony
+805	806	405	403	Balatonboglár
+807	808	406	403	Balatonfelvidék (Balaton Uplands)
+809	810	407	403	Balatonfüred-Csopak
+811	812	408	403	Balatonmelléke
+813	814	409	403	Somló
+817	818	411	410	Csongrád
+819	820	412	410	Hajós-Baja
+821	822	413	410	Kunság
+825	826	415	414	Bükkalja
+827	828	416	414	Eger
+829	830	417	414	Mátraalja
+831	832	418	414	Tokaj-Hegyalja
+835	836	420	419	Ászár-Neszmély
+837	838	421	419	Etyek-Buda
+839	840	422	419	Mór
+841	842	423	419	Pannonhalma-Sokoróalja
+843	844	424	419	Sopron
+847	848	426	425	Mecsekalja
+849	850	427	425	Szekszárd
+851	852	428	425	Tolna
+853	854	429	425	Villány
+867	868	436	435	Cinque Terre
+871	872	438	437	Franciacorta
+873	874	439	437	Oltrepo Pavese
+877	878	441	440	Castelli di Jesi
+879	880	442	440	Conero
+881	882	443	440	Piceno
+885	886	445	444	Acqui
+887	888	446	444	Alba
+889	890	447	444	Asti
+891	892	448	444	Barolo
+893	894	449	444	Colli Tortonesi
+895	896	450	444	Gattinara
+897	898	451	444	Gavi
+899	900	452	444	Langhe
+901	902	453	444	Monferrato
+903	904	454	444	Ovada
+909	910	457	456	Cagliari
+911	912	458	456	Monti
+913	914	459	456	Nuragus
+915	916	460	456	Ogliastra
+919	920	462	461	Etna
+921	922	463	461	Noto
+923	924	464	461	Pantelleria
+927	928	466	465	Bolgheri
+929	930	467	465	Carmignano
+931	932	468	465	Chianti
+933	934	469	465	Chianti Classico
+935	936	470	465	Colli Apuani
+937	938	471	465	Colli Etruria Centrale
+939	940	472	465	Colline Lucchesi
+941	942	473	465	Elba
+943	944	474	465	Montalcino
+945	946	475	465	Montepulciano
+947	948	476	465	Montescudaio
+949	950	477	465	Parrina
+951	952	478	465	Pitigliano
+953	954	479	465	San Gimignano
+955	956	480	465	Scansano
+957	958	481	465	Val di Chiana
+959	960	482	465	Val di Cornia
+961	962	483	465	Valdinievole
+963	964	484	465	Valle di Arbia
+969	970	487	486	Orvieto
+971	972	488	486	Torgiano
+975	976	490	489	Arcole
+977	978	491	489	Bagnoli
+979	980	492	489	Bardolino
+981	982	493	489	Bianco di Custoza
+983	984	494	489	Breganze
+985	986	495	489	Colli Berici
+987	988	496	489	Colli di Conegliano
+989	990	497	489	Colli Euganei
+991	992	498	489	Gambellara
+993	994	499	489	Garda
+995	996	500	489	Lessini Durello
+997	998	501	489	Lison Pramaggiore
+999	1000	502	489	Lugana
+1001	1002	503	489	Montgello e Colli Asolani
+1003	1004	504	489	Piave
+1005	1006	505	489	Prosecco di Conegliano - Valdobbiadene
+1007	1008	506	489	Soave
+1009	1010	507	489	Valdadige
+1011	1012	508	489	Valpolicella
+1127	1128	566	565	Mallorca
+1129	1130	567	565	Menorca
+1199	1200	602	601	Canberra District
+1203	1204	605	603	Cowra
+1205	1206	606	603	Gundagai
+1207	1208	607	603	Hastings River
+1209	1210	608	603	Hilltops
+1211	1212	609	603	Hunter Valley
+1213	1214	610	603	Mudgee
+1215	1216	611	603	Orange
+1217	1218	612	603	Perricoota
+1219	1220	613	603	Riverina
+1221	1222	614	603	Shoalhaven Coast
+1223	1224	615	603	Southern Highlands
+1225	1226	616	603	Tumbarumba
+1229	1230	618	617	Granite Belt
+1231	1232	619	617	South Burnett
+1235	1236	621	620	Adelaide Hills
+1237	1238	622	620	Adelaide Plains
+1239	1240	623	620	Barossa Valley
+1241	1242	624	620	Clare Valley
+1243	1244	625	620	Coonawarra
+1245	1246	626	620	Eden Valley
+1247	1248	627	620	Kangaroo Island
+1249	1250	628	620	Langhorne Creek
+1251	1252	629	620	McLaren Vale
+1253	1254	630	620	Mount Benson
+1255	1256	631	620	Padthaway
+1257	1258	632	620	Riverland
+1259	1260	633	620	Southern Fleurieu
+1261	1262	634	620	Southern Flinders Ranges
+1263	1264	635	620	Wrattonbully
+1267	1268	637	636	Coal River Valley
+1269	1270	638	636	Tamar Valley
+1273	1274	640	639	Alpine Valley
+1275	1276	641	639	Beechworth
+1277	1278	642	639	Bendigo
+1279	1280	643	639	Geelong
+1281	1282	644	639	Gippsland
+1283	1284	645	639	Glenrowan
+1285	1286	646	639	Goulburn Valley
+1287	1288	647	639	Grampians
+1289	1290	648	639	Heathcote
+1291	1292	649	639	Henty
+1293	1294	650	639	King Valley
+1295	1296	651	639	Macedon Ranges
+1297	1298	652	639	Mornington Peninsula
+1299	1300	653	639	Murray Darling
+1301	1302	654	639	Pyrenees
+1303	1304	655	639	Rutherglen
+1305	1306	656	639	Strathbogie Ranges
+1307	1308	657	639	Sunbury
+1309	1310	658	639	Swan Hill
+1311	1312	659	639	Upper Goulburn
+1313	1314	660	639	Yarra Valley
+1317	1318	662	661	Blackwood Valley
+1319	1320	663	661	Geographe
+1321	1322	664	661	Great Southern
+1323	1324	665	661	Manjimup
+1325	1326	666	661	Margaret River
+1327	1328	667	661	Peel
+1329	1330	668	661	Pemberton
+1331	1332	669	661	Perth Hills
+1333	1334	670	661	Swan District
+1339	1340	673	672	Henderson
+1341	1342	674	672	Kumeu
+1343	1344	675	672	Waiheke Island
+1349	1350	678	677	Waipara
+1359	1360	683	682	Blenheim
+1361	1362	684	682	Cloudy Bay
+1363	1364	685	682	Renwick
+1365	1366	686	682	Seddon
+1373	1374	690	689	Te Kauwhata
+1377	1378	692	691	Martinborough
+392	393	199	198	Čazma
+394	395	200	198	Voloder - Ivanić Grad
+398	399	202	201	Krašić
+400	401	203	201	Ozalj
+402	403	204	201	Plešivica - Okić
+404	405	205	201	Samobor
+406	407	206	201	Sveta Jana
+410	411	208	207	Baranja
+412	413	209	207	Erdut
+414	415	210	207	Srijem
+418	419	212	211	Karlovac
+420	421	213	211	Petrinja
+422	423	214	211	Vukomeričke gorice
+426	427	216	215	Bilogora
+428	429	217	215	Dugo Selo - Vrbovec
+430	431	218	215	Kalnik
+432	433	219	215	Koprivnica - Đurđevac
+434	435	220	215	Zagreb
+436	437	221	215	Zelina
+440	441	223	222	Đakovo
+442	443	224	222	Daruvar
+444	445	225	222	Feričanci
+446	447	226	222	Kutjevo
+448	449	227	222	Nova Gradiška
+450	451	228	222	Orahovica - Slatina
+452	453	229	222	Pakrac
+454	455	230	222	Požega - Pleternica
+456	457	231	222	Slavonski Brod
+458	459	232	222	Virovitica
+462	463	234	233	Krapina
+464	465	235	233	Ludbreg
+466	467	236	233	Međimurje
+468	469	237	233	Varaždin
+470	471	238	233	Zabok
+472	473	239	233	Zlatar
+478	479	242	241	Imotski
+480	481	243	241	Sinj - Vrlika
+482	483	244	241	Vrgorac
+486	487	246	245	Cres - Lošinj
+488	489	247	245	Krk
+490	491	248	245	Opatija - Rijeka
+492	493	249	245	Pag
+494	495	250	245	Rab
+498	499	252	251	Centralna Istra
+500	501	253	251	Istočna Istra
+502	503	254	251	Zapadna Istra
+506	507	256	255	Benkovac - Stankovci
+508	509	257	255	Drniš
+510	511	258	255	Knin
+512	513	259	255	Pirovac - Skradin
+514	515	260	255	Primošten
+516	517	261	255	Promina
+518	519	262	255	Šibenik
+520	521	263	255	Zadar - Biograd
+524	525	265	264	Brač
+526	527	266	264	Hvar
+528	529	267	264	Kaštela - Trogir
+530	531	268	264	Konavle
+532	533	269	264	Korčula
+534	535	270	264	Lastovo
+536	537	271	264	Mljet
+538	539	272	264	Neretva
+540	541	273	264	Pelješac
+542	543	274	264	Šolta
+544	545	275	264	Split - Omiš - Makarska
+546	547	276	264	Vis
+566	567	286	285	Bas-Graves
+568	569	287	285	Pessac-Leognan
+572	581	289	288	Bas-Médoc
+582	587	294	288	Haut-Médoc
+592	593	299	298	Lussac
+594	595	300	298	Montagne
+596	597	301	298	Puisseguin
+598	599	302	298	Saint-Georges
+602	603	304	303	Barsac
+604	605	305	303	Bommes
+606	607	306	303	Fargues-de-Langon
+608	609	307	303	Haut-Sauternes
+610	611	308	303	Preignac
+624	625	315	314	Beaune
+626	627	316	314	Côte de Beaune
+628	629	317	314	Côte de Nuits
+630	631	318	314	Gevrey-Chambertin
+632	633	319	314	Meursault
+634	635	320	314	Nuits-Saint-Georges
+650	651	328	327	Anjou
+652	653	329	327	Saumur
+770	771	388	387	Zitsa
+774	775	390	389	Ankhialos
+776	777	391	389	Rapsani
+573	574	290	289	Listrac
+575	576	291	289	Pauillac
+577	578	292	289	Saint-Estèphe
+579	580	293	289	Saint-Julien
+583	584	295	294	Margaux
+585	586	296	294	Moulis
