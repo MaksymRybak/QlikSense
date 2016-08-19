@@ -1,0 +1,23 @@
+//example loading all *.xlt files from system folder, it can be also shared folder
+for each FoundFile in filelist('lib://ExcelFolderQlikConnection\subfolder\*.xlt')
+  
+  [QlikSenseInternalTable]:
+  LOAD
+      "ExcelColumn1",
+      trim(text("ExcelColumn2")) as ExcelColumn2,
+      "ExcelColumn3." as ExcelColumn3,
+      year(ExcelDateTimeColumn) as Year,
+      num(month(ExcelDateTimeColumn)) as Month
+  FROM [$(FoundFile)]
+  (ooxml, embedded labels, header is 2 lines, table is [SheetName]);
+
+next FoundFile
+
+//example loading data from one file
+[QlikSenseInternalTable]:
+LOAD
+    Field1,
+    Field2,
+    trim(text(Field3)) as Field3
+FROM [lib://ExcelFolderQlikConnection/filename.xlsx]
+(ooxml, embedded labels, table is ExcelSheetName);
