@@ -1,0 +1,15 @@
+LIB CONNECT TO 'DBConnection';
+
+LOAD  Field1,
+      Field2,
+	    num(Field3) as Field3, 
+      text(Field4) & ' - ' & text(Field5) as Field4;
+      
+[DatabaseTable]:
+SELECT  Field1,
+        Field2,
+        Field3,
+        Field4,
+        Field5
+FROM DB.dbo.Table
+Order by Field1 desc, Field2 desc;
