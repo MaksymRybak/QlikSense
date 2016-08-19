@@ -1,0 +1,8 @@
+[DatabaseTable]:
+load  Field1,
+      Max(NumField1) as Sum1,
+      FirstSortedValue(distinct Field2, -Field3) as Result1
+resident [QlikSenseInternalTable]
+group by Field1
+order by Field1, Field2 desc, Field3 desc;
+
