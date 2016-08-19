@@ -1,0 +1,15 @@
+LIB CONNECT TO 'RestEndpointConnection';
+
+RestConnectorMasterTable:
+SQL SELECT 
+	"field1",
+	"field2"
+FROM JSON (wrap on) "root";
+
+[QlikSenseDestinationTable]:
+LOAD  field1 AS Field1,
+	    field2 AS Field2
+RESIDENT RestConnectorMasterTable;
+
+DROP TABLE RestConnectorMasterTable;
+
