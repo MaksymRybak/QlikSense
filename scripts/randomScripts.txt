@@ -40,10 +40,24 @@ resident QlikInternalTable2;
 
 // example4 (dropping qlik internal objects)
 drop field Field1;
+drop field Field2 from QlikInternalTable;
 drop table QlikInternalTable;
 
 // example5 (inner join with distinct, in other words, remove all fields in QlikSenseInternalTable1 not present in QlikSenseInternalTable2, join field is Field1)
 inner join(QlikSenseInternalTable1)
 LOAD distinct Field1
 RESIDENT QlikSenseInternalTable2;
+
+// example6 (concatenate tables)
+Concatenate(QlikSenseInternalTable1)
+load	Year,
+	Month,
+     	Field1
+resident QlikSenseInternalTable2;
+
+Concatenate(QlikSenseInternalTable1)
+load	left(YearMonth, index(YearMonth, '_', 1)-1) as Year,
+	mid(YearMonth,index(YearMonth, '_', 1)+1, index(YearMonth, '_', 2)-index(YearMonth, '_', 1)-1) as Month,
+     	right(YearMonth, len(YearMonth) - index(YearMonth, '_', 2)) as Field1
+resident QlikSenseInternalTable3;
 
